@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rania Zafar's Portfolio</title>
+    <style>
+        body {
+            background-color: #f1b9e9; /* Light blue background color */
+            color: #000; /* Keep text black */
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #915085; /* Blue color */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        header img {
+            width: 80px; /* Reduced width */
+            height: 80px; /* Reduced height */
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+
+        section {
+            padding: 20px 0;
+        }
+
+        .about img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        .skills h2, .projects h2, .achievements h2, .resume h2, .contact h2 {
+            color: #0f1214; /* Blue color */
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+        }
+
+        .skills .skill {
+            background-color: rgba(255, 255, 255, 0.763);
+            padding: 10px;
+            border: 1px solid #ddddddd6;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .projects .project {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .projects .project:hover {
+            background-color: #f8f9fa; /* Light gray on hover */
+        }
+
+        .resume a {
+            color: #17a2b8; /* Blue-green color */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact p, .contact a {
+            font-size: 1.1em;
+            color: #000;
+        }
+
+        .achievements img {
+            width: 500px;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Rania Zafar</h1>
+        <p>Frontend Developer </p>
+        <img src="71YokXGrlcS._AC_UF1000,1000_QL80_.jpg" alt="Logo">
+    </header>
+
+    <!-- About Section -->
+    <section class="about container">
+        <h2>About Me</h2>
+        <img src="92878295-047e-48c4-984d-e755372c6a06.jpeg" alt="Rania Zafar">
+        <p>I am a passionate software engineering student currently pursuing a BSSE degree from the University of Karachi. I am dedicated to honing my skills in frontend development, and consistently strives for excellence in my academic and personal projects.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills container">
+        <h2>Skills</h2>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">SQL</div>
+        <div class="skill">Java (Basics) </div>
+        <div class="skill">Python (Basics)</div>
+        <div class="skill">GitHub (Tool)</div>
+        <div class="skill">Figma (Tool)</div>
+        <div class="skill">Balsamiq (Tool)</div>
+        <div class="skill">Trello (Tool)</div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Wireframing Using Balsamiq</h3>
+            <p>Wireframes created using Balsamiq to plan web and mobile interfaces.</p>
+        </div>
+        <div class="project">
+            <h3>Prototyping Using Figma</h3>
+            <p>High-fidelity prototypes designed with Figma for client presentations.</p>
+        </div>
+        <div class="project">
+            <h3>Project Management Using Trello</h3>
+            <p>Managing team projects and tasks using Trello for effective collaboration.</p>
+        </div>
+        <div class="project">
+            <h3>Age Calculator Using HTML, CSS</h3>
+            <p>A simple age calculator web app using basic HTML and CSS.</p>
+        </div>
+        <div class="project">
+            <h3>TO DO List Using HTML, CSS, JavaScript</h3>
+            <p>A functional to-do list application developed using HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project">
+            <h3>Portfolio Using HTML, CSS</h3>
+            <p>This personal portfolio created with HTML and CSS to showcase my skills.</p>
+        </div>
+        <div class="project">
+            <h3>Basic Calculator Using HTML, CSS, JavaScript</h3>
+            <p>A basic calculator built with HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project">
+            <h3>Mini Voting App Using Java</h3>
+            <p>A mini voting application created using Java, incorporating GUI and JDBC.</p>
+        </div>
+    </section>
+
+    <!-- Achievements and Certifications Section -->
+    <section class="achievements container">
+        <h2>Achievements and Certifications</h2>
+        <div class="achievement">
+            <h3>How to Grab International Projects Using Freelance and Social Media (Jawan Pakistan)</h3>
+            <img src="275c3a07-df44-49b6-93cf-23c1ce98e6d7.jpeg" alt="Achievement 1">
+        </div>
+        <div class="achievement">
+            <h3>Basics of Python Programming (OpenWeaver)</h3>
+            <img src="9cf12e73-31c1-400e-96bd-c0458d2f0b75.jpeg" alt="Achievement 2">
+        </div>
+        <div class="achievement">
+            <h3>3-Day Workshop on TailWind CSS (YoungDev Interns)</h3>
+            <img src="28706f96-420d-4c33-943d-c3a90332e7f0.jpeg" alt="Achievement 3">
+        </div>
+        <div class="achievement">
+            <h3>Virtual Session on Pursuing a Career in UI/UX Design (Xounity)</h3>
+            <img src="9fbebb88-d18f-4894-88d4-e51f3f5ff625.jpeg" alt="Achievement 4">
+        </div>
+        <div class="achievement">
+            <h3>Basics of Python Programming (Softic Solutions)</h3>
+            <img src="8f364a38-669b-4c18-b031-1b84f7b2d660.jpeg" alt="Achievement 5">
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume container">
+        <h2>Resume</h2>
+        <p><a href="My Resume.pdf" download>Download My Resume (PDF)</a></p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact container">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:raniazafar14@gmail.com">raniazafar14@gmail.com</a></p>
+        <p>Phone: 0321-8263762</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Rania Zafar. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
